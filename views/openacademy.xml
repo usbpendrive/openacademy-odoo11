@@ -1,4 +1,37 @@
 <odoo>
+    <record model="ir.ui.view" id="course_form_view">
+        <field name="name">course.form</field>
+        <field name="model">openacademy.course</field>
+        <field name="arch" type="xml">
+            <form string="Course Form">
+                <sheet>
+                    <group>
+                        <field name="name" />
+                    </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description" />
+                        </page>
+                        <page string="about">
+                            Example about tab page
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="course_search_view">
+        <field name="name">course.search</field>
+        <field name="model">openacademy.course</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" />
+                <field name="description" />
+            </search>
+        </field>
+    </record>
+
     <record model="ir.actions.act_window" id="course_list_action">
         <field name="name">Courses</field>
         <field name="res_model">openacademy.course</field>
