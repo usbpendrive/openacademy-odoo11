@@ -7,7 +7,7 @@
             Multiple lines</field>
         </record>
         <record model="openacademy.course" id="course1">
-            <field name="name">Course 2</field>
+            <field name="name">Course 1</field>
             <!-- no description -->
         </record>
         <record model="openacademy.course" id="course2">

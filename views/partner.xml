@@ -41,7 +41,7 @@
     <record model="res.partner.category" id="teacher1">
         <field name="name">Teacher / Level 1</field>
     </record>
-    <record model="res.partner.category" id="teacher1">
+    <record model="res.partner.category" id="teacher2">
         <field name="name">Teacher / Level 2</field>
     </record>
 </odoo>
