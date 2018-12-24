@@ -1,7 +1,7 @@
 from odoo import api, fields, models
 
 
-class OpenacademyWizard(models.Model):
+class OpenacademyWizard(models.TransientModel):
     _name = 'openacademy.wizard'
 
     def _default_sessions(self):
